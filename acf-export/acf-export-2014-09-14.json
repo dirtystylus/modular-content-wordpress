@@ -1,0 +1,187 @@
+[
+    {
+        "key": "group_53f93b2a6ce0b",
+        "title": "Core Modules",
+        "fields": [
+            {
+                "key": "field_53f93b4a68af6",
+                "label": "Flexible Content",
+                "name": "flexible_content",
+                "prefix": "",
+                "type": "flexible_content",
+                "instructions": "This defines the core modules for the site.",
+                "required": 0,
+                "conditional_logic": 0,
+                "button_label": "Add Row",
+                "min": "",
+                "max": "",
+                "layouts": [
+                    {
+                        "key": "53f93b54d5f86",
+                        "name": "image_text_overlay",
+                        "label": "Image Text Overlay",
+                        "display": "row",
+                        "sub_fields": [
+                            {
+                                "key": "field_53f93c5168af7",
+                                "label": "Background Image",
+                                "name": "background_image",
+                                "prefix": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "column_width": "",
+                                "return_format": "array",
+                                "preview_size": "thumbnail",
+                                "library": "all"
+                            },
+                            {
+                                "key": "field_53f93c8268af8",
+                                "label": "Overlay Text",
+                                "name": "overlay_text",
+                                "prefix": "",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "column_width": "",
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "basic",
+                                "media_upload": 1
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    {
+                        "key": "53f93d245b076",
+                        "name": "image_and_text_block",
+                        "label": "Image and Text Block",
+                        "display": "row",
+                        "sub_fields": [
+                            {
+                                "key": "field_53f93d3e5b077",
+                                "label": "Featured Image",
+                                "name": "featured_image",
+                                "prefix": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "column_width": "",
+                                "return_format": "array",
+                                "preview_size": "thumbnail",
+                                "library": "all"
+                            },
+                            {
+                                "key": "field_53f93d5e5b078",
+                                "label": "Description Text",
+                                "name": "description_text",
+                                "prefix": "",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "column_width": "",
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    {
+                        "key": "53f93da65b079",
+                        "name": "callout_blocks",
+                        "label": "Callout Blocks",
+                        "display": "row",
+                        "sub_fields": [
+                            {
+                                "key": "field_53f93daf5b07a",
+                                "label": "Block Collection",
+                                "name": "block_collection",
+                                "prefix": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "column_width": "",
+                                "min": "",
+                                "max": "",
+                                "layout": "row",
+                                "button_label": "Add Row",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_53f93dcb5b07b",
+                                        "label": "Block Image",
+                                        "name": "block_image",
+                                        "prefix": "",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "column_width": "",
+                                        "return_format": "array",
+                                        "preview_size": "thumbnail",
+                                        "library": "all"
+                                    },
+                                    {
+                                        "key": "field_53f93dde5b07c",
+                                        "label": "Block Text",
+                                        "name": "block_text",
+                                        "prefix": "",
+                                        "type": "wysiwyg",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "column_width": "",
+                                        "default_value": "",
+                                        "tabs": "all",
+                                        "toolbar": "full",
+                                        "media_upload": 1
+                                    },
+                                    {
+                                        "key": "field_53f93df85b07d",
+                                        "label": "Block Link",
+                                        "name": "block_link",
+                                        "prefix": "",
+                                        "type": "page_link",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "column_width": "",
+                                        "post_type": "",
+                                        "taxonomy": "",
+                                        "allow_null": 0,
+                                        "multiple": 0
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": ""
+    }
+]
